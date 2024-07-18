@@ -3,6 +3,6 @@ defmodule CLIChatTest do
   doctest CLIChat
 
   test "greets the world" do
-    assert CLIChat.hello() == :ok
+    assert CLIChat.init() == :ok
   end
 end
